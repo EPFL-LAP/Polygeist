@@ -1,5 +1,5 @@
 [submodule "llvm-project"]
 	path = llvm-project
-	url = https://github.com/llvm/llvm-project.git
-	branch = main
-  shallow = true
+	url = https://github.com/EPFL-LAP/llvm-project.git
+	branch = dynamatic_2025_06_13
+	shallow = true
