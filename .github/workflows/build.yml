@@ -17,4 +17,4 @@ jobs:
       - name: build
         run: |
           chmod +x build-polygeist.sh
-          ./build-polygeist.sh --release
+          ./build-polygeist.sh --release --force
