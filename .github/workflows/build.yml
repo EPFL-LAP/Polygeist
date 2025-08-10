@@ -16,5 +16,5 @@ jobs:
       
       - name: build
         run: |
-          chmod +x build-polygeist.sh
-          ./build-polygeist.sh --release --force
+          sudo apt-get -y install ccache
+          bash build-polygeist.sh --release --force
